@@ -24,22 +24,22 @@
 				
 				<div id="cam1" class="col-md-6 col-sm-12">
 					<OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab" id="vlc" events="True">  
-						<param name="Src" value="rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=<?php echo $cam1;?>&subtype=0" />  
+						<param name="Src" value="rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=<?php echo $cam1;?>&subtype=0" />  
 						<param name="ShowDisplay" value="True" />  
 						<param name="AutoLoop" value="False" />  
 						<param name="AutoPlay" value="True" />  
-						<embed id="vlcEmb" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" target="rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=<?php echo $cam1;?>&subtype=0" ></embed>  
+						<embed id="vlcEmb" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" target="rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=<?php echo $cam1;?>&subtype=0" ></embed>  
 					</OBJECT>
 				</div>
 
 
 				<div id="cam2" class="col-md-6 col-sm-12">
 					<OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab" id="vlc" events="True">  
-						<param name="Src" value="rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=<?php echo $cam2;?>&subtype=0" />  
+						<param name="Src" value="rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=<?php echo $cam2;?>&subtype=0" />  
 						<param name="ShowDisplay" value="True" />  
 						<param name="AutoLoop" value="False" />  
 						<param name="AutoPlay" value="True" />  
-						<embed id="vlcEmb" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" target="rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=<?php echo $cam2;?>&subtype=0" ></embed>  
+						<embed id="vlcEmb" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" target="rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=<?php echo $cam2;?>&subtype=0" ></embed>  
 					</OBJECT>
 				</div>
 				<?php 
@@ -47,15 +47,17 @@
 					{
 						echo "<div id='cam3' class='col-md-6 col-sm-12'>
 							<OBJECT classid='clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921' codebase='http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab' id='vlc' events='True'>  
-								<param name='Src' value='rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=$cam3&subtype=0' />  
+								<param name='Src' value='rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=$cam3&subtype=0' />  
 								<param name='ShowDisplay' value='True' />  
 								<param name='AutoLoop' value='False' />  
 								<param name='AutoPlay' value='True' />  
-								<embed id='vlcEmb' type='application/x-google-vlc-plugin' version='VideoLAN.VLCPlugin.2' autoplay='yes' loop='no' target='rtsp://admin:INC357@apethotel.ddns-intelbras.com.br:8081/cam/realmonitor?channel=$cam3&subtype=0' ></embed>  
+								<embed id='vlcEmb' type='application/x-google-vlc-plugin' version='VideoLAN.VLCPlugin.2' autoplay='yes' loop='no' target='rtsp://admin:INC357@192.168.15.199:8081/cam/realmonitor?channel=$cam3&subtype=0' ></embed>  
 							</OBJECT>
 						</div>";
 					}
-				?>
+				 ?>
+				
+
 
 			</section>
 		</center>

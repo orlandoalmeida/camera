@@ -22,6 +22,7 @@ body{
 	background: url('bgcameras/01.png'), url('bgcameras/02.jpg');
 	background-repeat: no-repeat;
 	background-position: top center; 
+	background-attachment: fixed;
 }
 
 embed{
